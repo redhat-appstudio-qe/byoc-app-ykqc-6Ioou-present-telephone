@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: upcj
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-vdwo-tenant/byoc-app-ykqc/upcj@sha256:792264a6e116bbc4c4b8d1b01ddf5132a0a6f9a7cd998f81a3d65ce5ef8168d6
         name: my-java-quarkus
         ports:
         - containerPort: 8081
